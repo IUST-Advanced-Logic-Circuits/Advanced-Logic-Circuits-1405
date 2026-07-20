@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fir_lowpass_7tap_multi_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_fir_lowpass_7tap_multi" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="250400001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="225"></NameColumnWidth>
+      <ValueColumnWidth column_width="94"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_fir_lowpass_7tap_multi/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fir_lowpass_7tap_multi/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fir_lowpass_7tap_multi/sample_index" type="array">
+      <obj_property name="ElementShortName">sample_index[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_index[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group34" type="group">
+      <obj_property name="label">Step Test</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_fir_lowpass_7tap_multi/x_step" type="array">
+         <obj_property name="ElementShortName">x_step[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_step[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fir_lowpass_7tap_multi/y_step" type="array">
+         <obj_property name="ElementShortName">y_step[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_step[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">Fast Change Test </obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_fir_lowpass_7tap_multi/x_fast" type="array">
+         <obj_property name="ElementShortName">x_fast[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_fast[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fir_lowpass_7tap_multi/y_fast" type="array">
+         <obj_property name="ElementShortName">y_fast[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_fast[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group36" type="group">
+      <obj_property name="label">Impulse Test</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_fir_lowpass_7tap_multi/x_impulse" type="array">
+         <obj_property name="ElementShortName">x_impulse[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_impulse[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fir_lowpass_7tap_multi/y_impulse" type="array">
+         <obj_property name="ElementShortName">y_impulse[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_impulse[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group39" type="group">
+      <obj_property name="label">Low Frequency Sine Test </obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_fir_lowpass_7tap_multi/x_sine_low" type="array">
+         <obj_property name="ElementShortName">x_sine_low[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_sine_low[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fir_lowpass_7tap_multi/y_sine_low" type="array">
+         <obj_property name="ElementShortName">y_sine_low[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_sine_low[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group40" type="group">
+      <obj_property name="label">High Frequency Sine Test</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_fir_lowpass_7tap_multi/x_sine_high" type="array">
+         <obj_property name="ElementShortName">x_sine_high[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_sine_high[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fir_lowpass_7tap_multi/y_sine_high" type="array">
+         <obj_property name="ElementShortName">y_sine_high[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_sine_high[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_fir_lowpass_7tap_multi/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
